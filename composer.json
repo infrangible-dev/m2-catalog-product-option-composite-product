@@ -2,7 +2,7 @@
     "name": "infrangible/m2-catalog-product-option-composite-product",
     "description": "Infrangible Magento 2 Catalog Product Option Composite Product",
     "type": "magento2-module",
-    "version": "1.0.4",
+    "version": "1.0.5",
     "license": "MIT",
     "keywords": [
         "Magento"
@@ -19,8 +19,8 @@
     "require": {
         "php": ">=7.1",
         "magento/framework": "~102.0.0|~103.0.0",
-        "infrangible/m2-catalog-product-option-composite": "~2.7|~3.0|~4.0|~5.0",
-        "infrangible/m2-catalog-product-option-product": "~1.13"
+        "infrangible/m2-catalog-product-option-composite": "~2.7.0||~3.0.0||~4.5.0||~5.0.0",
+        "infrangible/m2-catalog-product-option-product": "~1.19.0"
     },
     "autoload": {
         "files": [
