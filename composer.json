@@ -1,11 +1,17 @@
 {
     "name": "infrangible/m2-catalog-product-option-composite-product",
-    "description": "Infrangible Magento 2 Catalog Product Option Composite Product",
+    "description": "Makes add-on product options from Catalog Product Option Product available on the cart page for editing bundle items from Catalog Product Option Composite.",
     "type": "magento2-module",
     "version": "1.0.5",
     "license": "MIT",
     "keywords": [
-        "Magento"
+        "Magento",
+        "Magento 2",
+        "Adobe Commerce",
+        "Product options",
+        "Bundle products",
+        "add-on products for bundle items in the cart",
+        "edit bundle add-ons in the cart"
     ],
     "homepage": "https://github.com/infrangible-dev/m2-catalog-product-option-composite-product",
     "authors": [
