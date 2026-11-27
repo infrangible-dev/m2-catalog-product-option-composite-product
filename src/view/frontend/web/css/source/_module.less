@@ -1,10 +1,11 @@
 /**
  * @author      Andreas Knollmann
- * @copyright   2014-2025 Softwareentwicklung Andreas Knollmann
+ * @copyright   Copyright (c) 2014-2026 Softwareentwicklung Andreas Knollmann
  * @license     http://www.opensource.org/licenses/mit-license.php MIT
  */
 
 & when (@media-common = true) {
+    /* phpcs:ignore Magento2.Less.ClassNaming -- the body class of the page handle contains underscores */
     .infrangible_catalogproductoptioncomposite-quote_item-bundle {
         .cart-container {
             .products {
@@ -14,7 +15,7 @@
                             .product-options-wrapper {
                                 .field-wrapper-product {
                                     .control {
-                                        > input[type="checkbox"].product-custom-option {
+                                        > input[type='checkbox'].product-custom-option {
                                             display: none;
                                         }
                                     }

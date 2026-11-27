@@ -2,7 +2,7 @@
     "name": "infrangible/m2-catalog-product-option-composite-product",
     "description": "Makes add-on product options from Catalog Product Option Product available on the cart page for editing bundle items from Catalog Product Option Composite.",
     "type": "magento2-module",
-    "version": "1.0.5",
+    "version": "2.0.0",
     "license": "MIT",
     "keywords": [
         "Magento",
@@ -13,7 +13,7 @@
         "add-on products for bundle items in the cart",
         "edit bundle add-ons in the cart"
     ],
-    "homepage": "https://github.com/infrangible-dev/m2-catalog-product-option-composite-product",
+    "homepage": "https://www.infrangible.dev/modules/catalog-product-option-composite-product",
     "authors": [
         {
             "name": "Andreas Knollmann",
@@ -23,10 +23,16 @@
         }
     ],
     "require": {
-        "php": ">=7.1",
-        "magento/framework": "~102.0.0|~103.0.0",
-        "infrangible/m2-catalog-product-option-composite": "~2.7.0||~3.0.0||~4.5.0||~5.0.0",
-        "infrangible/m2-catalog-product-option-product": "~1.19.0"
+        "php": ">=8.1",
+        "infrangible/m2-catalog-product-option-composite": "~6.0.3",
+        "infrangible/m2-catalog-product-option-product": "~2.0.2",
+        "infrangible/m2-foundation": "~3.0.2",
+        "magento/framework": "~103.0.6",
+        "magento/module-catalog": "~104.0.0",
+        "magento/module-configurable-product": "~100.4.0"
+    },
+    "require-dev": {
+        "infrangible/phpstan-magento": "~1.2.0"
     },
     "autoload": {
         "files": [
